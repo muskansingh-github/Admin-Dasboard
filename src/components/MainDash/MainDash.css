@@ -1,0 +1,21 @@
+.MainDash {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 9%;
+    position: relative;
+    left: 16%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .MainDash {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 9%;
+        position: relative;
+        left: 0;
+    }
+    
+  }
